@@ -1,0 +1,143 @@
+body {
+    background-color: blanchedalmond;
+    color: black;
+}
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: blanchedalmond;
+    color:black;
+}
+
+.darkLight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 30px;
+}
+
+/*.darkLight p {
+    flex: 3;
+    margin-top: 0.4%;
+    font-family: monospace;
+    font-size: 1.4em;
+}*/
+
+.darkLight button {
+    margin-right: 0.2%;
+    border-radius: 5px;
+    border-style: none;
+    background-color:whitesmoke;
+    font-family: monospace;
+    font-size: 1.3em;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 3.8em;
+}
+h2 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 3em;
+    margin-bottom: 0.5%;
+}
+
+.Options {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.rock {
+    border-style: none;
+    height: 400px;
+    width: 400px;
+}
+.rock img {
+    height: 400px;
+    width: 400px;
+}
+.rock input {
+    margin-top: 2%;
+    margin-left: 40%;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-family: monospace;
+    font-size: 2.5em;
+    background-color: white;
+}
+
+.rock input:hover {
+    background-color: teal;
+}
+
+.paper {
+    border-style: none;
+    height: 400px;
+    width: 400px;
+}
+.paper img {
+    height: 400px;
+    width: 400px;
+}
+.paper input {
+    margin-top: 2%;
+    margin-left: 37%;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-family: monospace;
+    font-size: 2.5em;
+    background-color: white;
+}
+.paper input:hover {
+    background-color: teal;
+}
+
+.scissor {
+    border-style: none;
+    height: 400px;
+    width: 400px;
+}
+.scissor img {
+    height: 400px;
+    width: 400px;
+}
+.scissor input {
+    margin-top: 2%;
+    margin-left: 30%;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-family: monospace;
+    font-size: 2.5em;
+    background-color: white;
+}
+.scissor input:hover {
+    background-color: teal;
+}
+
+h3 {
+    margin-top: 0%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2em;
+}
+@media screen and (max-width: 400px) {
+    .paper {
+        margin-top: 20%;
+    }
+    .scissor {
+        margin-top: 20%;
+    }
+    .Options {
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+}

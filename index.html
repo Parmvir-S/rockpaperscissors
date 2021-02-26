@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="rock.png">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body id="backgroundColor">
+    <div class="darkLight">
+        <!--<p>Score: <span id="score">0</span></p>-->
+        <button onclick="dark()">D</button>
+        <button onclick="light()">L</button>
+    </div>
+    <h1>Rock Paper Scissors</h1>
+    <div class="Options">
+        <div class="rock">
+            <img src="rock.png">
+            <input id="Rock" type="button" value="Rock" onclick="rock(this.value)">
+        </div>
+        <div class="paper">
+            <img src="paper.png">
+            <input id="Paper" type="button" value="Paper" onclick="paper(this.value)">
+        </div>
+        <div class="scissor">
+            <img src="scissors.png">
+            <input id="Scissor" type="button" value="Scissors" onclick="scissors(this.value)">
+        </div>
+    </div>
+    <br> <br> <br>
+    <h2 id="result">Goodluck!</h2>
+    <h3 id="Computer"></h2>
+</body>
+</html>
