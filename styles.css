@@ -130,14 +130,54 @@ h3 {
     font-size: 2em;
 }
 @media screen and (max-width: 750px) {
+    .darkLight {
+        width: 95%;
+    }
     .paper {
-        margin-top: 20%;
+        border-style: none;
+        height: 200px;
+        width: 200px;
+        margin-left: -8.2em;
+    }
+    .paper img {
+      width: 55%;
+      height: 43.5%;  
+      margin-left: 4.5em;
     }
     .scissor {
-        margin-top: 20%;
+        /* margin-top: 20%; */
+        width: 50%;
+        height: 40%;  
+        margin-left: -4em;
+    }
+    .scissor img {
+        width: 62%;
+        height: 50%; 
+        margin-left: 4.5em; 
+      }
+    .rock {
+        border-style: none;
+        height: 200px;
+        width: 200px;
+        margin-right: 4em;
+    }
+    .rock img {
+        width: 60%;
+        height: 40%;
+        margin-left: 4em;
     }
     .Options {
         margin-left: 10%;
         margin-right: 5%;
+    }
+    h2{
+        position: relative;
+        bottom: 2.4em;
+        left: 0.2em;
+    }
+    h3 {
+        position: relative;
+        bottom: 2.8em;
+        left: 0.2em;
     }
 }
