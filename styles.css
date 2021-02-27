@@ -19,12 +19,12 @@ body {
     height: 30px;
 }
 
-/*.darkLight p {
+.darkLight p {
     flex: 3;
     margin-top: 0.4%;
     font-family: monospace;
     font-size: 1.4em;
-}*/
+}
 
 .darkLight button {
     margin-right: 0.2%;
@@ -129,7 +129,7 @@ h3 {
     font-family: monospace;
     font-size: 2em;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) {
     .paper {
         margin-top: 20%;
     }
